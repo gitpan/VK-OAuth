@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               VK-OAuth
-version:            0.04
+version:            0.05
 abstract:           OAuth authorization on your site with VK API
 author:
     - Alexander Babenko <foxcool@cpan.org>

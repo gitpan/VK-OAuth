@@ -9,7 +9,7 @@ require LWP::UserAgent;
 require JSON;
 require Carp;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 sub new {
@@ -136,7 +136,7 @@ This method returns a URL, for which you want to redirect the user.
 
 =head3 Options
 
-http://vk.com/developers.php?oid=-1&p=Авторизация_сайтов
+See information about options on http://vk.com/developers.php
 
 =head3 Response
 
@@ -184,10 +184,7 @@ Method returns HASH object with requested data.
 
 Github: https://github.com/Foxcool/VK-OAuth
 
-More information:
-	Authorization - http://vk.com/developers.php?oid=-1&p=Авторизация_сайтов
-	API methods   - http://vk.com/developers.php?oid=-1&p=Описание_методов_API
-	And others in http://vk.com/developers.php
+More information: http://vk.com/developers.php
 
 =head1 AUTHOR
 
